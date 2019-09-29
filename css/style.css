@@ -88,3 +88,38 @@ a:hover {
 .myButton:hover:after {
   opacity: 0.3;
 }
+
+/* Saying */
+.saying {
+  position: relative;
+  background: #f1f1f1;
+  background: linear-gradient(90deg,#f1f1f1 0%, #eaeaea 100%);
+  background: -webkit-linear-gradient(90deg,#f1f1f1 0%, #eaeaea 100%);
+  background: -moz-linear-gradient(90deg,#f1f1f1 0%, #eaeaea 100%);
+  opacity: 1;
+
+  box-shadow: 1px 1px 0px 0px rgba(220,220,220,1) inset;
+  -webkit-box-shadow: 1px 1px 0px 0px rgba(220,220,220,1) inset;
+  -moz-box-shadow: 1px 1px 0px 0px rgba(220,220,220,1) inset;
+
+  border-left: 1px solid #c2c2c2;
+  border-top: 1px solid #c2c2c2;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+.saying::after {
+  content: '';
+  position: absolute;
+  bottom: -1.5rem;
+  right: 2rem;
+  width: 0;
+  height: 0;
+  border-top: 1.5rem solid #f1f1f1;
+  border-right: 1.5rem solid transparent;
+
+  box-shadow: 5px 5px 0px 0px rgba(220,220,220,1) inset;
+  -webkit-box-shadow: 1px 1px 0px 0px rgba(220,220,220,1) inset;
+  -moz-box-shadow: 1px 1px 0px 0px rgba(220,220,220,1) inset;
+  box-shadow: -1px 0px 0px #c8c8c8;
+}
