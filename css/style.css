@@ -188,3 +188,22 @@ a:hover {
 .twitter:hover {
   background: url('/img/twitter-hover.png') no-repeat;
 }
+
+
+/* Vertical Devide List */
+.vertical-divide-list li {
+  list-style: none;
+  border-right: 1px solid #333;
+  line-height: 1rem;
+  padding: 0 0.6rem;
+  margin: 0;
+}
+
+.vertical-divide-list li:first-child {
+  padding-left: 0;
+}
+
+.vertical-divide-list li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
