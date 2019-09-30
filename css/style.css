@@ -207,3 +207,21 @@ a:hover {
   border-right: none;
   padding-right: 0;
 }
+
+
+/* Guide arrows */
+.guide-arrow-1 {
+  position: absolute;
+  top: 20%;
+  right: -90%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.guide-arrow-2 {
+  position: absolute;
+  top: -50%;
+  left: -80%;
+  display: flex;
+  align-items: flex-end;
+}
