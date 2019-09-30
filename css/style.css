@@ -121,5 +121,70 @@ a:hover {
   box-shadow: 5px 5px 0px 0px rgba(220,220,220,1) inset;
   -webkit-box-shadow: 1px 1px 0px 0px rgba(220,220,220,1) inset;
   -moz-box-shadow: 1px 1px 0px 0px rgba(220,220,220,1) inset;
-  box-shadow: -1px 0px 0px #c8c8c8;
+  box-shadow: -1px 0px 0px #dcdcdc, -2px 0px 0px #c2c2c2;
+}
+
+.saying::before {
+  content: '';
+  position: absolute;
+  bottom: -1.5rem;
+  right: 1.9rem;
+  width: 0;
+  height: 0;
+  border-top: 1.5rem solid #ffffff;
+  border-right: 1.5rem solid transparent;
+}
+
+
+/* Social Networks */
+
+.icon-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.social-networks div {
+  /* margin: 0 0.2rem; */
+}
+
+.skype {
+  background: url('/img/skype.png') no-repeat;
+}
+.skype:hover {
+  background: url('/img/skype-hover.png') no-repeat;
+}
+
+.linkedin {
+  background: url('/img/linkedin.png') no-repeat;
+}
+.linkedin:hover {
+  background: url('/img/linkedin-hover.png') no-repeat;
+}
+
+.facebook {
+  background: url('/img/facebook.png') no-repeat;
+}
+.facebook:hover {
+  background: url('/img/facebook-hover.png') no-repeat;
+}
+
+.digg {
+  background: url('/img/digg.png') no-repeat;
+}
+.digg:hover {
+  background: url('/img/digg-hover.png') no-repeat;
+}
+
+.deviantart {
+  background: url('/img/deviantart.png') no-repeat;
+}
+.deviantart:hover {
+  background: url('/img/deviantart-hover.png') no-repeat;
+}
+
+.twitter {
+  background: url('/img/twitter.png') no-repeat;
+}
+.twitter:hover {
+  background: url('/img/twitter-hover.png') no-repeat;
 }
