@@ -225,3 +225,29 @@ a:hover {
   display: flex;
   align-items: flex-end;
 }
+
+
+@media (max-width: 1200px) {
+  .guide-arrow-1,
+  .guide-arrow-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .logo:after {
+    display: none;
+  }
+
+  .myButton:after {
+    display: none;
+  }
+}
