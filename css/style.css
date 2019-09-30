@@ -212,16 +212,16 @@ a:hover {
 /* Guide arrows */
 .guide-arrow-1 {
   position: absolute;
-  top: 20%;
-  right: -90%;
+  top: 10%;
+  right: 0%;
   display: flex;
   align-items: flex-start;
 }
 
 .guide-arrow-2 {
   position: absolute;
-  top: -50%;
-  left: -80%;
+  top: -30%;
+  left: 5%;
   display: flex;
   align-items: flex-end;
 }
@@ -242,12 +242,16 @@ a:hover {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 513px) {
   .logo:after {
     display: none;
   }
 
   .myButton:after {
     display: none;
+  }
+
+  img.img-fluid.mr-3 {
+    display: none !important;
   }
 }
